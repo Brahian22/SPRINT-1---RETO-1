@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+:root {
+
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+.home {
+    flex-wrap: wrap;
+}
+*{
+    font-family: 'Rubik', sans-serif !important;
+    Font-size: 18px
+}
+.contenedorprincipal{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+}
+.titulos{
+    color: var(--Very-Dark-Blue) !important;
+}
+
+.parrafos{
+    color: var(--Grayish-Blue);
+
+}
+
+.b {
+    color: rgb(97, 97, 97) !important;
+    font-weight: 400;
+    text-transform: uppercase !important;
+}
+
+.btncon{
+    padding: 10px;
+    width: 8%;
+    font-size: 15px;
+    border: 2px solid var(--Soft-Red) ;
+    color: white !important; 
+    background-color: var(--Soft-Red) !important;
+}
+
+.btncon:hover {
+    color: var(--Soft-Red) !important;
+    background-color: white !important;
+}
+
+input {
+    margin: 10px;
+    width: 20%;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:hover{
+    border: 2px solid var(--Soft-Red);
+}
+
+.btnlogin {
+    border: 2px solid var(--Soft-Red) ;
+    color: white !important; 
+    background-color: var(--Soft-Red) !important;
+}
+
+.btnlogin:hover{
+    
+    color: var(--Soft-Red) !important;
+    background-color: transparent !important;
+}
+
+.btnhol:hover {
+    color: var(--Soft-Red) !important;
+}
+
+.btnblues{
+    border: 2px solid var(--Soft-Blue) ;
+    color: white !important; 
+    background-color: var(--Soft-Blue) !important;
+}
+.btnblues:hover {
+    color: var(--Soft-Blue) !important;
+    background-color: transparent !important;
+}
+
+.btnwhite{
+    border: 2px solid rgb(245, 245, 245) ;
+    color: var(--Very-Dark-Blue) !important; 
+    background-color:rgb(245, 245, 245) !important;
+}
+.sombra {
+    box-shadow: 5px 5px 5px rgb(230, 230, 230) !important;
+}
+.btnwhite:hover {
+    border: 2px solid var(--Very-Dark-Blue) ;
+    color: var(--Very-Dark-Blue) !important;
+    background-color: transparent !important;
+}
+
+.image1 {
+    position: absolute;
+    top: -30%;
+    left: -45%;
+}
+
+.dis1 {
+    width: 30%;
+    height: 50%;
+    border-radius: 0 0 0 30%;
+    padding: 100px;
+    background-color: var(--Soft-Blue) !important;
+    position: relative;
+    left: 70%;
+    top: 60% !important;
+}
+
+.images{
+    position: absolute;
+    top: -19%;
+    left: 45%;
+}
+.dis2 {
+    margin-bottom: 10%;
+    width: 50%;
+    height: 50%;
+    border-radius: 30%;
+    padding: 100px;
+    background-color: var(--Soft-Blue) !important;
+    position: relative;
+    left: 10% !important;
+    top: 160% !important;
+}
+.containertext {
+    margin-top: 10% !important;
+    margin-left: 8% !important;
+}
+.caja0{
+    margin-top: 20% !important;
+}
+.botones {
+    width: 100%;
+}
+.botones p {
+    color: #252b46;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin: 12px;
+  }
+  .botones p:hover {
+    border-bottom: 7px solid #fa5757;
+  }
+
+
+.caja {
+    margin-top: 10%;
+    margin-bottom: 15% ;
+    position: absolute;
+    left: 50%;
+    top: 110% ;
+}
+.caja2{
+    position: absolute;
+    top: 190%;
+    left: 35%;
+}
+.caja3 {
+    position: absolute;
+    top: 280%;
+    left: 35%;
+}
+.logo {
+    width: 40%;
+}
+.puntos{
+    border-bottom: dotted rgb(245, 245, 245) 6px;
+}
+
+.tarjetas{
+    margin: 35rem;
+}
+
+.log1{
+    position: absolute;
+    left: 18%;
+    top: 212%;
+}
+
+.log2{
+    position: absolute;
+    left: 41%;
+    top: 217%;
+}
+
+.log3{
+    position: absolute;
+    left: 64%;
+    top: 222%;
+}
+.linkcorreo{
+    opacity: 0;
+}
+
+.acordeon{
+    width: 25%;
+    margin-right: 35%;
+    margin-left: 20%;
+    position: absolute;
+    top: 300%;
+    left: 18%;
+  
+}
+
+.justificar{
+    text-align: justify !important;
+}
+
+.back  {
+    width: 100%;
+    position: absolute;
+    top: 375%;
+    left: 0;
+    padding-top: 5%;
+    background-color: var(--Soft-Blue);
+    padding-bottom: 5%;
+}
+.back2{
+    position: absolute;
+    top: 420%;
+    left: 0;
+    width: 100%;
+
+    background-color: var(--Very-Dark-Blue);
+}
+.mayus {
+    text-transform: uppercase !important;
+}
+
+.iconos{
+    position: absolute !important;
+    left: 75%;
+    top: 30%;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: white;
+}
+ion-icon:hover {
+    color: var(--Soft-Red);
+}

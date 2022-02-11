@@ -1,0 +1,303 @@
+@media screen and (max-width: 768px) {
+
+$Soft-Blue: hsl(231, 69%, 60%);
+$Soft-Red: hsl(0, 94%, 66%);
+$Grayish-Blue: hsl(229, 8%, 60%);
+$Very-Dark-Blue: hsl(229, 31%, 21%);
+
+.home {
+    flex-wrap: wrap;
+}
+*{
+    font-family: 'Rubik', sans-serif !important;
+    Font-size: 18px;
+}
+.contenedorprincipal{
+    margin-top: 100%;
+    margin-bottom: 20%;
+    
+}
+.titulos{
+    text-align: center;
+
+    font-size: 60px !important;
+    color: var(--Very-Dark-Blue) !important;
+}
+
+.parrafos{
+    text-align: center;
+    font-size: 30px;
+    color: var(--Grayish-Blue);
+
+}
+
+.b {
+  
+    color: rgb(97, 97, 97) !important;
+    font-weight: 400;
+    text-transform: uppercase !important;
+}
+
+.btncon{
+    
+    padding: 1.5%;
+    width: 15%;
+    font-size: 15px;
+    border: 2px solid var(--Soft-Red) ;
+    color: white !important; 
+    background-color: var(--Soft-Red) !important;
+
+    &:hover {
+        color: var(--Soft-Red) !important;
+        background-color: white !important;
+    }
+
+}
+
+
+
+input {
+    
+    margin: 10px;
+    width: 40%;
+    border: 0;
+    padding: 1.5%;
+    border-radius: 10px;
+
+    &:hover{
+        border: 2px solid var(--Soft-Red);
+    }
+}
+
+
+
+.btnlogin {
+    border: 2px solid var(--Soft-Red) ;
+    color: white !important; 
+    background-color: var(--Soft-Red) !important;
+
+    &:hover{
+    
+        color: var(--Soft-Red) !important;
+        background-color: transparent !important;
+    }
+
+}
+
+
+
+.btnhol:hover {
+    color: var(--Soft-Red) !important;
+}
+
+.btnblues{
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 45%;
+    padding: 4%;
+    border: 2px solid var(--Soft-Blue) ;
+    color: white !important; 
+    background-color: var(--Soft-Blue) !important;
+
+    &:hover {
+        color: var(--Soft-Blue) !important;
+        background-color: transparent !important;
+    }
+}
+
+
+.btnwhite{
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 45%;
+    padding: 4%;
+    border: 2px solid rgb(245, 245, 245) ;
+    color: var(--Very-Dark-Blue) !important; 
+    background-color:rgb(245, 245, 245) !important;
+     &:hover {
+        border: 2px solid var(--Very-Dark-Blue) ;
+        color: var(--Very-Dark-Blue) !important;
+        background-color: transparent !important;
+    }
+}
+.sombra {
+    box-shadow: 5px 5px 5px rgb(230, 230, 230) !important;
+}
+
+.botones {
+ 
+    p {
+        margin-bottom: 5%;
+        color: $Very-Dark-Blue;
+        text-align: center;
+        font-size: 40px;
+        display: block;
+        
+        &:hover {
+            border-bottom: 7px solid $Soft-Red;
+        }
+    }
+}
+
+.image1 {
+    position: absolute;
+    top: -20%;
+    left: -50%;
+}
+
+.dis1 {
+    width: 60%;
+    height: 40%;
+    border-radius: 0 0 0 30%;
+    padding: 100px;
+    background-color: var(--Soft-Blue) !important;
+    position: relative;
+    left: 40%;
+    top: 50% !important;
+}
+
+.images{
+    position: absolute;
+    top: -19%;
+    left: 45%;
+}
+.dis2 {
+    width: 50%;
+    height: 40%;
+    border-radius: 30%;
+    padding: 100px;
+    background-color: var(--Soft-Blue) !important;
+    position: relative;
+    left: 10% !important;
+    top: 250% !important;
+}
+.containertext {
+    margin-top: 10% !important;
+    margin-left: 8% !important;
+}
+
+.caja {
+    margin: 1% 1%;
+    position: absolute;
+    left: 1%;
+    top: 275%;
+
+    button {
+        margin-left: 30%;
+    }
+
+    
+}
+.caja2 {
+    margin-top: 10%;
+    margin-bottom: 15% ;
+    position: absolute;
+    left: 0;
+    top: 335% ;
+}
+.caja3 {
+    margin-top: 10%;
+    margin-bottom: 15% ;
+    position: absolute;
+    top: 590% ;
+    left: 0;
+}
+
+.logo {
+    width: 40%;
+}
+.puntos{
+    border-bottom: dotted rgb(245, 245, 245) 6px;
+}
+
+.tarjetas{
+    
+    margin: 35rem;
+}
+.card {
+    width: 70% !important;
+}
+
+.log1{
+    position: absolute;
+    left: 15%;
+    top: 380%;
+
+    a {
+        width: 80%;
+    }
+}
+
+.log2{
+    position: absolute;
+    left: 15%;
+    top: 448%;
+    a {
+        width: 80%;
+    }
+}
+
+.log3{
+    position: absolute;
+    left: 15%;
+    top: 515%;
+    a {
+        width: 80%;
+    }
+}
+.linkcorreo{
+    opacity: 0;
+}
+.acordeon{
+    position: absolute;
+    top: 630%;
+    left: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+   width: 60%;
+    .btnblues {
+        width: 60%;
+    }
+}
+
+.justificar{
+    text-align: justify !important;
+}
+
+.back  {
+    width: 100%;
+    position: absolute;
+    top: 680%;
+    padding-top: 5%;
+    background-color: var(--Soft-Blue);
+    padding-bottom: 5%;
+}
+.back2{
+    width: 100%;
+    position: absolute;
+    top: 707%;
+    background-color: var(--Very-Dark-Blue);
+}
+.mayus {
+    text-transform: uppercase !important;
+}
+
+.iconos{
+    position: absolute !important;
+    left: 75%;
+    top: 30%;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: white;
+}
+ion-icon:hover {
+    color: var(--Soft-Red);
+}
+
+
+
+}
